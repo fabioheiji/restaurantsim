@@ -39,7 +39,7 @@ with st.expander("Description"):
         '''
             **The project, developed in Python using the SimPy library, simulates a restaurant experience from a customer’s arrival to their departure. It models various stages such as waiting for a table, ordering food, and paying the bill. The main objective of this project was to demonstrate the power of discrete event simulation with SimPy and Process Mining with PM4PY. By combining these two powerful tools, the project provides valuable insights into the restaurant’s operations, identifies potential bottlenecks, and offers opportunities for optimization. This combination of simulation and process mining showcases a powerful method for analyzing and improving complex systems.**
 
-            *For other projects, check my portfolio [here](www.fabioheiji.com)*
+            *For other projects, check my portfolio [here](https://www.fabioheiji.com)*
 
             ### Model description:
 
