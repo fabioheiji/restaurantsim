@@ -37,6 +37,12 @@ if "last_scenario_loaded" not in st.session_state:
 with st.expander("Description"):
     st.markdown(
         '''
+            **The project, developed in Python using the SimPy library, simulates a restaurant experience from a customer’s arrival to their departure. It models various stages such as waiting for a table, ordering food, and paying the bill. The main objective of this project was to demonstrate the power of discrete event simulation with SimPy and Process Mining with PM4PY. By combining these two powerful tools, the project provides valuable insights into the restaurant’s operations, identifies potential bottlenecks, and offers opportunities for optimization. This combination of simulation and process mining showcases a powerful method for analyzing and improving complex systems.**
+
+            *For other projects, check my portfolio [here](www.fabioheiji.com)*
+
+            ### Model description:
+
             The simulation model represents a typical restaurant experience from the perspective of a customer. The process begins when a customer arrives at the restaurant. The customer’s arrival triggers the start of the simulation.
 
             Upon arrival, the customer waits for an available table. The tables are categorized into two types: regular and big. The selection of the table depends on the customer’s preference and the availability of the tables. This is modeled using SimPy’s resources to represent the tables.
@@ -53,7 +59,7 @@ with st.expander("Description"):
 
             This simulation model can be run for many customers to understand the dynamics of the restaurant, identify bottlenecks, and optimize the restaurant’s operations. The power of SimPy lies in its ability to model complex systems and processes in a relatively straightforward manner, making it an excellent tool for this kind of simulation.
 
-            Please note that this is a high-level description. The actual implementation would involve writing Python code using the SimPy library and may require additional details based on the specific requirements of the project.        
+            Please note that this is a high-level description. The actual implementation would involve writing Python code using the SimPy and PM4PY libraries and may require additional details based on the specific requirements of the project.
 
         ''')
 
